@@ -146,12 +146,12 @@ h1 {
 
 
 .welcome-grid p {
-  grid-column: 1fr;
+  grid-column: 1 / -1; 
   margin-bottom: 1rem;
 }
 
 .welcome-grid ol {
-  grid-column: 1fr;
+  grid-column: 1 / -1; 
   margin-top: 0;
   padding-left: 1.5rem;
 }
