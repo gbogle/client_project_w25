@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Success at UMSI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
     <header>
-        <a href="#main-content">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="academic_support.html">Academic Support</a></li>
-                <li><a href="study_spaces.html">Study Spaces</a></li>
-                <li><a href="student_success.html">Student Success</a></li>
-            </ul>
-        </nav>
-        <h1>Student Success at UMSI</h1>
+       
+        <div class="header">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="study_spaces.html">Study Spaces</a></li>
+                    <li class="active"><a href="student_success.html" title="Current page: Student Success">Success Resources</a></li>
+                    <li><a href="academic_support.html">Academic Support</a></li>
+                </ul>
+             </nav>
+        </div>
     </header>
 
-    <main id="main-content">
-        <section>
+    <main id="main-content" class="container student-success">
+        <h1>Student Success at UMSI</h1>
+        <section class="health-wellness">
             <h2>Health and Wellness</h2>
             <p>UMSI recognizes the importance of physical and mental well-being. Students have access to a variety of health services that cater to both their physical and mental health needs. UMSI students are encouraged to prioritize their health and take advantage of these resources throughout their academic journey.</p>
             <h3>Counseling and Psychological Services (CAPS)</h3>
@@ -32,8 +42,8 @@
                 <figcaption>Health and wellness resources are vital to your success at UMSI.</figcaption>
             </figure>
         </section>
-
-        <section>
+    
+        <section class="student-life">
             <h2>Student Life and Organizations</h2>
             <p>UMSI strives to create a vibrant and diverse student life experience. There are various student organizations that support both professional and personal development. If you're interested in technology, social justice, or social events, there's a group for you. Students are encouraged to get involved to build connections, enhance their skills, and contribute to the community.</p>
             <figure>
@@ -41,15 +51,16 @@
                 <figcaption>Get involved in student organizations for personal and professional growth.</figcaption>
             </figure>
         </section>
-
-        <section>
+    
+        <section class="dei-organizations">
             <h2>DEI Organizations</h2>
             <p>Diversity, Equity, and Inclusion (DEI) are core values at UMSI. There are numerous DEI-focused student organizations that work to promote inclusivity, understanding, and equal opportunities for all students. These organizations provide platforms for underrepresented groups and contribute to creating a welcoming and supportive environment for everyone in the UMSI community.</p>
         </section>
     </main>
+    
  <!-- Content modified from UMGPT with the prompt, "What content would a student at UofM need to know about the resources in health and wellness at UofM?"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
-    <footer>
+    <footer class="footer">
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
     </footer>
 

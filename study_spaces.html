@@ -4,57 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Spaces at UMSI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
     <header>
-        <a href="#main-content">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="academic_support.html">Academic Support</a></li>
-                <li><a href="study_spaces.html">Study Spaces</a></li>
-                <li><a href="student_success.html">Student Success</a></li>
-            </ul>
-        </nav>
-        <h1>Study Spaces at UMSI</h1>
+       
+        <div class="header">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="study_spaces.html" title="Current page: Study Spaces">Study Spaces</a></li>
+                    <li><a href="student_success.html">Success Resources</a></li>
+                    <li><a href="academic_support.html">Academic Support</a></li>
+                </ul>
+             </nav>
+        </div>
     </header>
 
-    <main id="main-content">
-        <section>
+    <main id="main-content" class="container">
+        <h1>Study Spaces at UMSI</h1>
+        
+        <section class="study-spaces-overview">
             <h2>Study Spaces Overview</h2>
-            <p>The University of Michigan offers a variety of study spaces designed to support both individual and group work. Whether you prefer quiet, distraction-free zones for focused study or collaborative rooms for group projects, you'll find spaces that cater to your needs. In addition, UMSI provides access to online resources and virtual study groups, allowing you to study flexibly and connect with peers remotely.</p>
+            <div class="overview-content">
+                <img src="images/Group_Study.jpg" alt="Students collaborating in a study space" class="section-image">
+                <p>The University of Michigan offers a variety of study spaces designed to support both individual and group work. Whether you prefer quiet, distraction-free zones for focused study or collaborative rooms for group projects, you'll find spaces that cater to your needs. In addition, UMSI provides access to online resources and virtual study groups, allowing you to study flexibly and connect with peers remotely.</p>
+            </div>
         </section>
 
-        <section>
+        <section class="quiet-study-areas">
             <h2>Quiet Study Areas</h2>
-            <p>There is a variety of quiet spaces across campus where students can study independently without distractions. These spaces are ideal for those who need to focus on coursework, research, or reading. The University Library system provides access to dedicated quiet zones equipped with comfortable seating, power outlets, and ample natural light. The UMSI building includes quiet study areas designed to foster concentration and productivity.</p>
-            <figure>
-                <img src="images/Quiet_Study.jpg" alt="Student studying in the quiet Law library space">
-                <figcaption>Quiet study areas provide a peaceful environment for focused work.</figcaption>
-            </figure>
+            <div class="quiet-study-content">
+                <img src="images/Quiet_Study.jpg" alt="Quiet study area in the library" class="section-image">
+                <div class="text-content">
+                    <p>There is a variety of quiet spaces across campus where students can study independently without distractions. These spaces are ideal for those who need to focus on coursework, research, or reading. The University Library system provides access to dedicated quiet zones equipped with comfortable seating, power outlets, and ample natural light.</p>
+                    <p>The UMSI building includes quiet study areas designed to foster concentration and productivity, ensuring students have optimal environments for academic work.</p>
+                </div>
+            </div>
         </section>
 
-        <section>
+        <section class="group-study-spaces">
             <h2>Group Study Spaces</h2>
-            <p>For collaborative projects, there are several group study spaces available. These spaces are designed to accommodate teams of students working together on assignments, presentations, or group discussions. Group study rooms are equipped with whiteboards, media equipment, and large tables to create and help with collaboration. Some spaces are available on a first-come, first-served basis, while others can be reserved in advance via the University room's booking system.</p>
-            <figure>
-                <img src="images/Group_Study.jpg" alt="Students working in a group study library floor">
-                <figcaption>Group study spaces support collaboration and teamwork.</figcaption>
-            </figure>
-            <a href="https://www.lib.umich.edu/visit-and-study/study-spaces/bookable-spaces">Book Study Rooms at U-M</a>
+            <div class="group-study-content">
+                <p>For collaborative projects, there are several group study spaces available. These spaces are designed to accommodate teams of students working together on assignments, presentations, or group discussions. Group study rooms are equipped with:</p>
+                <ul>
+                    <li>Whiteboards for brainstorming</li>
+                    <li>Media equipment for presentations</li>
+                    <li>Large tables to support collaboration</li>
+                </ul>
+                <p>Some spaces are available on a first-come, first-served basis, while others can be reserved in advance via the University room's booking system.</p>
+                <a href="https://www.lib.umich.edu/visit-and-study/study-spaces/bookable-spaces" class="booking-link">Book Study Rooms at U-M</a>
+            </div>
         </section>
 
-        <section>
-            <h3>Online Study Resources</h3>
-            <p>In addition to physical study spaces, UMSI students also have access to a range of online resources to support their academic needs. The University Library's digital collections offer access to e-books, academic papers, and online databases that are available 24/7. Online study groups and virtual tutoring services also provide students with remote support.</p>
+        <section class="online-study-resources">
+            <h2>Online Study Resources</h2>
+            <div class="online-resources-content">
+                <p>In addition to physical study spaces, UMSI students have access to a range of online resources to support their academic needs:</p>
+                <ul>
+                    <li>University Library's digital collections</li>
+                    <li>E-books and academic papers</li>
+                    <li>Online databases (24/7 access)</li>
+                    <li>Virtual study groups</li>
+                    <li>Online tutoring services</li>
+                </ul>
+            </div>
         </section>
     </main>
-<!-- Content modified from UMGPT with the prompt, "What content would a student at UofM need to know about study spaces?"
+<!-- Content modified from UMGPT with the prompt, "What content would a student at UofM need to know about the study spaces at UofM?"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
-    <footer>
+    <footer class="footer">
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
     </footer>
-
 </body>
 </html>
