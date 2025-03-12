@@ -1,0 +1,455 @@
+body {
+  font-family: 'Atkinson Hyperlegible', sans-serif; 
+  font-size: 1rem; 
+  line-height: 1.5; 
+  background-color: #FFFFFF; 
+  color: #00274C; 
+  margin: 0;
+  padding: 0;
+}
+
+.skip-link {
+  position: fixed; 
+  top: -100px; 
+  left: 0;
+  background: #00274C;
+  color: #FFFFFF;
+  padding: 10px;
+  width: auto; 
+  height: auto;
+}
+
+.skip-link:focus {
+  top: 0;
+  left: 0;
+  outline: 3px solid #FFCB05;
+}
+
+
+.container {
+  display: block; 
+  margin: 0; 
+  padding: 5rem; 
+}
+
+.header {
+  background-color: #FFCB05;
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-left: 1rem;
+}
+
+nav {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  color: #00274C;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  color: #0076c8;
+}
+
+nav li.active a {
+  color: #00274C;
+  font-weight: bolder;
+  border-bottom: 3px solid #00274C;
+}
+
+
+img { 
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.logo {
+  width: 70px; 
+  height: auto; 
+  display: block; 
+  margin-left: 20px; 
+}
+
+h1 {
+  font-size: 2.5rem; 
+  margin-top: 1rem; 
+  margin-bottom: 1.5rem; 
+  text-align: center; 
+  font-weight: bold; 
+}
+
+.welcome-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border-left: 4px solid #00274C;
+}
+
+
+.welcome-grid h2 {
+  grid-column: 1 / -1;
+  margin-top: 0;
+  color: #00274C;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #FFCB05;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+
+.welcome-grid p {
+  grid-column: 1fr;
+  margin-bottom: 1rem;
+}
+
+.welcome-grid ol {
+  grid-column: 1fr;
+  margin-top: 0;
+  padding-left: 1.5rem;
+}
+
+.welcome-grid li {
+  margin-bottom: 0.5rem;
+}
+
+.main-content {
+  background-color: #FFFFFF;
+  padding: 1rem;
+}
+
+.health-services-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 2rem; 
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.service-item {
+  gap: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+ 
+}
+
+.service-item h3 {
+  margin: 0;
+  padding: 0.75rem;
+  background-color: #00274C;
+  color: white;
+}
+
+.service-item img {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
+}
+
+.service-item p {
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
+
+
+.mental-health {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.mental-health h2 {
+  grid-column: 1 / -1;
+}
+
+
+.mental-health > p {
+  grid-column: 1 / -1;
+}
+
+
+.mental-health article {
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 0.25rem;
+}
+
+
+.outside-classroom-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.academic-grid h2 {
+  grid-column: 1 / -1;
+}
+
+
+.study-spaces-overview,
+.quiet-study-areas,
+.group-study-spaces,
+.online-study-resources {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.overview-content,
+.quiet-study-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.group-study-spaces ul,
+.online-study-resources ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.group-study-spaces ul li,
+.online-study-resources ul li {
+    margin-bottom: 0.5rem;
+}
+
+.booking-link {
+    display: inline-block;
+    background-color: #00274C;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.booking-link:hover {
+    background-color: #FFCB05;
+    color: #00274C;
+}
+
+.student-success {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.student-success section {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.student-success section h2 {
+  color: #00274C;
+  border-bottom: 3px solid #FFCB05;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.student-success p {
+  color: #00274C;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.student-success figure {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.student-success figure img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.student-success a {
+  display: inline-block;
+  background-color: #FFCB05;
+  color: #00274C;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.student-success a:hover {
+  background-color: #00274C;
+  color: #FFCB05;
+}
+
+
+.academic-overview,
+.academic-advising,
+.tutoring-services,
+.advising-tips {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.academic-overview h2,
+.academic-advising h2,
+.tutoring-services h2,
+.advising-tips h3 {
+  color: #00274C;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #FFCB05;
+}
+
+.advising-image,
+.tutoring-image {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.advising-image img,
+.tutoring-image img {
+    max-width: 100%;
+    max-height:30%;
+    border-radius: 5px;
+}
+
+.advising-link,
+.tutoring-link {
+  display: inline-block;
+  background-color: #00274C;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  
+}
+
+.advising-link:hover,
+.tutoring-link:hover {
+  background-color: #FFCB05;
+  color: #00274C;
+}
+
+.advising-tips-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.advising-tips-list li {
+  margin-bottom: 1.5rem;
+}
+
+.advising-tips-list ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.advising-tips-list ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  background-color: #00274C; 
+  color: white;
+  padding: 1rem;
+  text-align: center; 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.footer a {
+  color: #FFFFFF; 
+  text-decoration: underline; 
+}
+
+.footer a:hover {
+  background-color: #0076c8; 
+  color: white; 
+  border: 2px solid #0076c8;
+  padding: 4px 8px; 
+  border-radius: 4px;
+}
+
+
