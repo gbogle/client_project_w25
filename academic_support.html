@@ -76,13 +76,51 @@
                     Complete any action steps suggested by your advisor (e.g., registering for classes, contacting other offices). Reach out if you need further assistance.</li>
             </ul>
         </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="accordion">How do I schedule an academic advising appointment?</button>
+                    <div class="panel">
+                        <p>You can schedule an appointment through the BSI Academic Advising website or by emailing your assigned advisor directly. Appointments are typically 15-30 minutes long and can be conducted in-person or virtually.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="accordion">What should I bring to my advising appointment?</button>
+                    <div class="panel">
+                        <p>It's helpful to bring your list of questions, a copy of your transcript or degree audit, and any relevant course materials or program requirements you want to discuss.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="accordion">Can I change my academic advisor?</button>
+                    <div class="panel">
+                        <p>In some cases, you may request to change your academic advisor. Please contact the BSI Academic Advising office to discuss your specific situation and the available options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="accordion">How often should I meet with my academic advisor?</button>
+                    <div class="panel">
+                        <p>It's recommended to meet with your advisor at least once per semester, especially before registration periods. However, you can schedule additional meetings anytime you have questions about your academic progress or need guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
  <!-- Content modified from UMGPT with the prompt, "What content would a student at UofM need to know about academic support?"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
 
     <footer class="footer">
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+        <p>© <span id="year"></span> University of Michigan School of Information</p>
     </footer>
 
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+     <script src="script.js"></script>
 </body>
 </html>

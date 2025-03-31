@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | UMSI Student Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+   
+    <header>
+        <div class="header">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="study_spaces.html">Study Spaces</a></li>
+                    <li><a href="student_success.html">Success Resources</a></li>
+                    <li><a href="academic_support.html">Academic Support</a></li>
+                </ul>
+             </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <div class="error-container">
+            <header class="error-header">
+                 <h1 class="error-code">404</h1>
+                    <h2 class="error-message">Page Not Found</h2>
+          </header>
+        
+            <p class="error-description">Oops! We couldn't find this page. It's probably busy cramming for finals in the library. It might have been moved, renamed, or is just taking a much-needed coffee break.</p>
+            <a href="index.html" class="home-button">Return to Home</a>
+            
+            <div class="nav-suggestions">
+                <h2>You might be looking for:</h2>
+                <div class="suggestion-grid">
+                    <div class="suggestion-item">
+                        <a href="study_spaces.html">Study Spaces</a>
+                        <p>Find quiet areas and group study locations at UMSI</p>
+                    </div>
+                    <div class="suggestion-item">
+                        <a href="academic_support.html">Academic Support</a>
+                        <p>Academic advising and tutoring resources</p>
+                    </div>
+                    <div class="suggestion-item">
+                        <a href="student_success.html">Success Resources</a>
+                        <p>Health, wellness, and student life information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+        <p>© <span id="year"></span> University of Michigan School of Information</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

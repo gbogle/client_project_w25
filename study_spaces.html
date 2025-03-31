@@ -80,8 +80,13 @@
     </main>
 <!-- Content modified from UMGPT with the prompt, "What content would a student at UofM need to know about the study spaces at UofM?"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
-    <footer class="footer">
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
-    </footer>
+        <footer class="footer">
+            <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+            <p>© <span id="year"></span> University of Michigan School of Information</p>
+        </footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
 </body>
+    
 </html>
