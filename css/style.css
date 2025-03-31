@@ -453,3 +453,284 @@ h1 {
 }
 
 
+
+
+
+@media screen and (min-width: 768px) {
+  /* Styles */
+  .health-services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .overview-content,
+  .quiet-study-content {
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+  
+  .welcome-grid {
+    padding: 2rem;
+  }
+  
+  .mental-health {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  
+  .student-success {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .student-success section {
+    margin-bottom: 3rem;
+    border-left: 5px solid #FFCB05;
+  }
+  
+  .student-success h2 {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+  
+  .student-success p {
+    padding-left: 1rem;
+  }
+  
+  .student-success figure {
+    margin: 1.5rem auto;
+    max-width: 600px;
+  }
+  
+  .student-success figure img {
+    border-radius: 8px;
+  }
+  
+  .health-wellness, 
+  .student-life, 
+  .dei-organizations {
+    padding: 2rem;
+  } 
+
+    
+    /* FAcademic support page main container */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+   
+    /* Make academic advising images smaller */
+  .academic-advising img {
+     max-width: 500px;
+    margin: 0 auto; 
+    display: block;
+  }
+     
+    /* Two-column layout for tutoring services section */
+  .tutoring-services {
+    display: grid;
+    grid-template-columns: 3fr 2fr; 
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 2rem;
+  }
+      
+      
+  .tutoring-services h2 {
+  grid-column: 1 / -1;
+  }
+      
+      
+  .tutoring-services p {
+    grid-column: 1;
+    margin-bottom: 1rem;
+  }
+      
+      
+  .tutoring-services figure,
+  .tutoring-services .tutoring-image {
+    grid-column: 2;
+    grid-row: 2 / span 3; 
+    align-self: center;
+  }
+      
+      /* Image styling */
+  .tutoring-services figure img,
+  .tutoring-services .tutoring-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .tutoring-image figcaption {
+    text-align: center;
+     margin-top: 0.5rem;
+  }
+    
+
+
+
+/* 404 Error Page Styles */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.error-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.error-code {
+  font-size: 8rem;
+  color: #00274C;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  color: #00274C;
+  font-weight: normal;
+}
+
+.error-description {
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  background-color: #FFCB05;
+  color: #00274C;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #00274C;
+  color: #FFCB05;
+}
+
+.nav-suggestions {
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+.suggestion-item {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 5px;
+  border-left: 4px solid #00274C;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-item a {
+  color: #00274C;
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-item p {
+  margin: 0;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.suggestion-item a:hover {
+  color: #FFCB05;
+}
+
+
+
+/* FAQ Section Styles */
+.faq-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Open and close the accordion panel */
+.accordion {
+  background-color: #00274C;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Background color to the button  */
+.accordion.active, .accordion:hover {
+  background-color: #0f3a5f;
+}
+
+/* Style the accordion panel */
+.panel {
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  display: none; 
+}
+
+.panel p {
+  padding: 18px;
+  margin: 0;
+}
+
+/* Tablet and Desktop Styles */
+@media screen and (min-width: 768px) {
+  .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+  
+  .accordion {
+      font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+  }
+
+
+
+  
+
+
